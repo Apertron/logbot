@@ -3,6 +3,7 @@
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = '1.0'
 
+Rails.application.config.assets.precompile += %w( bootstrap-sass/dist/fonts/glyphicons-halflings-regular.eot bootstrap-sass/dist/fonts/glyphicons-halflings-regular.woff bootstrap-sass/dist/fonts/glyphicons-halflings-regular.ttf )
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
 

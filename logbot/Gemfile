@@ -58,3 +58,6 @@ gem 'slim'
 gem 'pry', :group => :development
 gem 'pry-rails', :group => :development
 
+# .rb -> .js <3
+
+gem 'opal-rails'
